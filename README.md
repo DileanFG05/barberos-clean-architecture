@@ -1,7 +1,7 @@
 # BarberOS — Sistema de gestión para barbería con tienda
 
 **Actividad #3: Clean Architecture aplicada a tu proyecto**
-Materia: Frameworks y Arquitectura de · Profesor: Zabaleta Duran Adrián Rene
+Materia: Frameworks y Arquitectura de software - Profesor: Zabaleta Duran Adrián Rene
 Equipo: Pozas Gomez Fernando, expediente 333414. Juan Pablo Bolaños Rivera, expediente 326570. Julio Alberto Tecuapacho Velázquez, expediente 333364.
 
 ```bash
@@ -155,3 +155,4 @@ El apartado de 10 minutos (BR-02). Al principio lo veíamos como algo técnico, 
 
 **¿Qué ganan con poder cambiar la infraestructura sin tocar el núcleo?**
 Que las reglas se prueban en milisegundos sin levantar una base de datos, y que esas mismas pruebas sirven para validar cualquier adapter nuevo: si el de PostgreSQL pasa la suite, cumple la regla. También podemos posponer decisiones caras, como qué base de datos usar o si el celular guarda en IndexedDB, sin detener el desarrollo, y si mañana cambia el proveedor de correo o de base de datos, el riesgo queda encerrado en un solo archivo.
+
